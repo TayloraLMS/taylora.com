@@ -292,22 +292,21 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+#slogan h2.mobile {
+    font-size: 3em;
 }
 
-@media only screen and (max-width: 760px) {
-    #slogan h2 {
-	font-size: 3em;
-    }
+#slogan h1.mobile {
+    font-size: 1.25em;
+}
 
-    #slogan h1 {
-	font-size: 1.25em;
-    }
+#subscribe.mobile {
+    bottom: 22vh;
+}
 
-    #subscribe {
-	bottom: 22vh;
-    }
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
