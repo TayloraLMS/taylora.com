@@ -296,6 +296,20 @@ textarea {
     /* Style adjustments for viewports that meet the condition */
 }
 
+@media only screen and (max-width: 760px) {
+    #slogan h2 {
+	font-size: 3em;
+    }
+
+    #slogan h1 {
+	font-size: 1.25em;
+    }
+
+    #subscribe {
+	bottom: 22vh;
+    }
+}
+
 @media print,
 (-webkit-min-device-pixel-ratio: 1.25),
 (min-resolution: 1.25dppx),
