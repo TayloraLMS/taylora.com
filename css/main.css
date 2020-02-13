@@ -292,6 +292,10 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
+#slogan.mobile {
+    top: 22vh;
+}
+
 #slogan h2.mobile {
     font-size: 3em;
 }
